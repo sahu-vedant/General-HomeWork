@@ -29,7 +29,7 @@ int main()
         fflush(stdin);
         printf("\nEnter name of student %d : ", i + 1);
         gets(info[i].name);
-        printf("\nEnter gender of student %d (male/female/trans) : ", i + 1);
+        printf("\nEnter gender of student %d (male/female) : ", i + 1);
         gets(info[i].gender);
 
         // take marks at once
